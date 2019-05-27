@@ -1,0 +1,28 @@
+{
+  "name": "@saber2pr/gen-index",
+  "version": "0.0.1",
+  "description": "> generate an index.ts file for the dir.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saber2pr/gen-index.git"
+  },
+  "author": "saber2pr",
+  "license": "ISC",
+  "files": [
+    "lib/core/*",
+    "lib/index.*"
+  ],
+  "bin": {
+    "genIndex": "./lib/index.js"
+  },
+  "scripts": {
+    "test": "node ./lib/index.js ./src/test/tdir",
+    "start": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.3"
+  },
+  "dependencies": {
+    "@saber2pr/node": "^0.2.1"
+  }
+}
