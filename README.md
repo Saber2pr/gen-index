@@ -10,6 +10,12 @@ npm install @saber2pr/gen-index
 git clone https://github.com/Saber2pr/gen-index.git
 ```
 
+# Usage
+
+```bash
+genIndex ./src/utils
+```
+
 ---
 
 ## start
@@ -20,8 +26,6 @@ npm install
 
 ```bash
 npm start
-
-npm run dev
 
 ```
 
