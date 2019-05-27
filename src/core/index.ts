@@ -2,7 +2,7 @@
  * @Author: saber2pr
  * @Date: 2019-05-27 21:30:28
  * @Last Modified by: saber2pr
- * @Last Modified time: 2019-05-27 21:42:59
+ * @Last Modified time: 2019-05-27 22:37:24
  */
 import { FS } from '@saber2pr/node'
 import { createIndex } from './utils'
@@ -13,7 +13,9 @@ export async function genIndex(dir: string) {
 
   const result = await FS.readdir(dir)
 
-  const moduleNames = result.map(n => n.split('.')[0])
+  const moduleNames = result
+    .map(n => n.split('.')[0])
+    .filter(m => m !== 'index')
 
   const index = createIndex(moduleNames)
 

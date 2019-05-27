@@ -1,4 +1,3 @@
-export * from './index'
 export * from './tdir'
 export * from './test'
 export * from './test1'

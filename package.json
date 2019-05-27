@@ -1,6 +1,6 @@
 {
   "name": "@saber2pr/gen-index",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "> generate an index.ts file for the dir.",
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "genIndex": "./lib/index.js"
   },
   "scripts": {
-    "test": "node ./lib/index.js ./src/test/tdir",
+    "test": "node ./lib/index.js ./src/test",
     "start": "tsc --watch"
   },
   "devDependencies": {
