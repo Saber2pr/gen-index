@@ -4,7 +4,7 @@
 
 ```bash
 # from npm
-npm install @saber2pr/gen-index
+npm install @saber2pr/gen-index -g
 
 # from github
 git clone https://github.com/Saber2pr/gen-index.git
